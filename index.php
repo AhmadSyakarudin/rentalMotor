@@ -5,7 +5,7 @@ class Motor {
     private $isMember;
     public $pajak = 10000; 
 
-    public function __construct($harga, $isMember = false) {
+    public function __construct($harga, $isMember) {
         $this->harga = $harga;
         $this->isMember = $isMember;
     }
